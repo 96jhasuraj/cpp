@@ -1,0 +1,9 @@
+# 1. Ignore everything inside the build folder
+build/*
+
+# 2. Un-ignore executables (Windows)
+!build/*.exe
+
+# 3. Un-ignore specific extensionless executables (Linux/macOS)
+!build/hellow
+!build/hellotest
